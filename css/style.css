@@ -104,3 +104,17 @@ header .user img{
   height: 35px;
   object-fit: contain;
 }
+
+header .user i{
+  margin-right: 40px;
+}
+
+header i, header .toggle{
+  font-size: 19px;
+  color: #fff;
+  cursor: pointer;
+}
+
+header .toggle{
+  
+}
