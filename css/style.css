@@ -163,6 +163,7 @@ header i, header .toggle{
 }
 
 .logo_name{
+  align-items: center;
   display: flex;
 }
 
@@ -170,4 +171,58 @@ header i, header .toggle{
   font-size: 25px;
   margin-right: 10px;
   color: #ff0000;
+}
+
+.icon_home::before{
+  content: "\f015";
+  font-family: FontAwesome;
+  font-style: normal;
+}
+
+.nav_list, .nav_items{
+  display: grid;
+}
+
+.nav_list{
+  row-gap: 40px;
+}
+
+.nav_items{
+  row-gap: 24px;
+}
+
+.nav_link{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 15px;
+  justify-content: flex-start;
+}.nav_link:hover{
+  color: #ff0000;
+}
+
+.icon_home{
+  font-size: 19px;
+}
+
+.nav_name{
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.icon_compass::before{
+  content: "\f14e";
+  font-family: FontAwesome;
+  font-style: normal;
+}
+
+.icon_shorts::before{
+  content: "\f0e7";
+  font-family: FontAwesome;
+  font-style: normal;
+}
+
+.fa-2x{
+  width: 30px;
 }
