@@ -234,3 +234,66 @@ header i, header .toggle{
   font-family: FontAwesome;
   font-style: normal;
 }
+
+
+.icon_camera::before{
+  content: "\f03d";
+  font-family: FontAwesome;
+  font-style: normal;
+}
+
+.icon_history::before{
+  content: "\f0e2";
+  font-family: FontAwesome;
+  font-style: normal;
+}
+
+.icon_like::before{
+  content: "\f164";
+  font-family: FontAwesome;
+  font-style: normal;
+}
+
+.icon_showMore::before{
+  content: "\f107";
+  font-family: FontAwesome;
+  font-style: normal;
+}
+
+.icon_message::before{
+  content: "\f075";
+  font-family: FontAwesome;
+  font-style: normal;
+}
+
+.subcribe {
+  min-width: 0%;
+  width: 25%;
+ 
+}
+
+.nav_subtitle{
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #a5a1aa;
+}
+
+.nav_dropdown{
+  min-height: 35px;
+  overflow: hidden;
+  max-height: 21px;
+  transition: 0.5s;
+}
+
+.nav_dropdown-content{
+  display: grid;
+  row-gap: 8px;
+  padding: 10px;
+}
+
+.nav_dropdown-collapse{
+  background-color: #232323;
+  border-radius: 4px;
+  margin-top: 16px;
+}
