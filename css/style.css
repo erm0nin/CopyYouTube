@@ -218,11 +218,19 @@ header i, header .toggle{
 }
 
 .icon_shorts::before{
-  content: "\f0e7";
+  content: "\f209";
   font-family: FontAwesome;
   font-style: normal;
 }
 
 .fa-2x{
   width: 30px;
+}
+
+
+
+.icon_channel::before{
+  content: "\f080";
+  font-family: FontAwesome;
+  font-style: normal;
 }
