@@ -297,3 +297,31 @@ header i, header .toggle{
   border-radius: 4px;
   margin-top: 16px;
 }
+
+.nav_dropdown-item{
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.nav_dropdown-item:hover{
+  color: #ff0000;
+}
+
+.nav_dropdown-icon{
+  margin-left: auto;
+  transition: 0,5s;
+}
+
+.nav_dropdown:hover{
+  min-height: 100rem;
+}
+
+.subcribe{
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  
+}
