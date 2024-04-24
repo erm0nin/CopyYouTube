@@ -325,3 +325,10 @@ header i, header .toggle{
   margin-right: 10px;
   
 }
+
+
+.nav_dropdown-items, .nav_dropdown-second{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
