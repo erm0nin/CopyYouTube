@@ -386,6 +386,7 @@ header i, header .toggle{
   .nav{
     left: 0;
     padding: 19px 24px 0;
+    width: 82px;
   }
   main{
     padding-top: 20px;
@@ -397,8 +398,7 @@ header i, header .toggle{
   .nav .nav_subtitle,
   .nav .logo_name,
   .nav .nav_dropdown-icon,
-  .nav .navtop,
-  .nav_link:nth-child(4),
+  .nav .navtop .nav_link:nth-child(4),
   .nav .subscribe-container{
     opacity: 0;
     transition: 0.5s;
@@ -407,10 +407,21 @@ header i, header .toggle{
   .nav:hover .nav_subtitle,
   .nav:hover .logo_name,
   .nav:hover .nav_dropdown-icon,
-  .nav:hover .navtop,
+  .nav:hover .navtop 
   .nav_link:nth-child(4),
   .nav:hover .subscribe-container{
     opacity: 1;
     transition: 0.5s;
+  }
+}
+
+
+@media screen and (max-width:420px){
+  header .search{
+    width: 70%;
+  }
+  header .none,
+  header .user{
+    display: none;
   }
 }

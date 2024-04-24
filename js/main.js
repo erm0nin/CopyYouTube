@@ -1,21 +1,21 @@
  const showMenu = (headerToggle, navBarId)=>{
-  const toggleBtn = document.getElementById(headerToggle);
+  const toggleBtn = document.getElementById('headerToggle');
+   navBarId = document.getElementById('navbar');
+
   if(headerToggle && navBarId){
     toggleBtn.addEventListener('click', ()=>{
-      nav.classList.toggle('show-menu');
-      toggleBtn.classList.toggle('fa-times');
+      navBarId.classList.toggle('show-menu');
     })
   }
  }
 
  showMenu('header-toggle', 'navbar');
 
- const linkColor = document.querySelectorAll('.nav-link');
+ const linkColor = document.querySelectorAll('.nav_link');
 
  function colorLink(){
-  linkColor.forEach(link = link.classList.remove('active'));
+  linkColor.forEach(l = l.classList.remove('active'));
   this.classList.add('active');
-  
  }
 
- linkColor.forEach(link = link.addEventListener('click', colorLink));
+ linkColor.forEach(link => link.addEventListener('click', colorLink));
