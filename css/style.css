@@ -351,9 +351,11 @@ header i, header .toggle{
   color: #ff0000
 }
 
-
-
 .video_items{
+  max-width: 300px;
+}
+
+.video_items .video{
   width: 295px;
   height: 170px;
 }
