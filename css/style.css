@@ -359,19 +359,64 @@ header i, header .toggle{
 }
 
 .video_items a img{
+  border-radius: 7px;
   width: 295px;
   height: 170px;
   object-fit: cover;
 }
+.video_items .details{
+  margin-top: 15px;
 
+}
 .video_items .img{
   width: 50px;
   height: 50px;
   border-radius: 50%;
   border: 2px solid #fff;
-  margin: 10px;
+  margin: 10px 20px 0 0;
+  object-fit: cover;
 }
 
+.video_items .heading{
+  width: 80%;
+  color: #fff;
+}
+
+.video_items p{
+  margin: 0;
+
+}
+
+.flex{
+  display: flex;
+}
+
+.icon_verif::before{
+  content: "\f058";
+  font-family: FontAwesome;
+  font-style: normal;
+}
+
+
+.video_items span{
+  margin: 0;
+  color: grey;
+  font-size: 13px;
+  font-weight: 500;
+}
+.video_items img{
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width:1080px) {
+
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:20px;
+  }
+}
 @media screen and (min-width:768px) {
   body{
     padding: 16px 48px 0 96px;
@@ -410,8 +455,7 @@ header i, header .toggle{
     width: 82px;
   }
   main{
-    padding-top: 20px;
-    padding-left: 200px;
+ 
   }
   .nav:hover{
     width: 265px;
@@ -439,6 +483,11 @@ header i, header .toggle{
 @media screen and (max-width:420px){
   header .search{
     width: 70%;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:20px;
   }
   header .none,
   header .user{
