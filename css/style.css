@@ -42,7 +42,7 @@ a{
   text-decoration: none;
 }
 img{
-  min-width: 100%;
+ 
   height: auto;
 }
 
@@ -351,6 +351,27 @@ header i, header .toggle{
   color: #ff0000
 }
 
+
+
+.video_items{
+  width: 295px;
+  height: 170px;
+}
+
+.video_items a img{
+  width: 295px;
+  height: 170px;
+  object-fit: cover;
+}
+
+.video_items .img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: 10px;
+}
+
 @media screen and (min-width:768px) {
   body{
     padding: 16px 48px 0 96px;
@@ -398,7 +419,6 @@ header i, header .toggle{
   .nav .nav_subtitle,
   .nav .logo_name,
   .nav .nav_dropdown-icon,
-  .nav .navtop .nav_link:nth-child(4),
   .nav .subscribe-container{
     opacity: 0;
     transition: 0.5s;
